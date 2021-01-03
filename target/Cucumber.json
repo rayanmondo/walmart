@@ -1,0 +1,115 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7473812000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User on walmart Homepage",
+            "match": {
+              "location": "stepDefinitions.MoviesStep.WalmartHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-03T07:40:05.171Z",
+        "before": [
+          {
+            "result": {
+              "duration": 39947766000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Find Aladin from Shop Movies by Studio  and validate the item title",
+        "description": "",
+        "id": "test-movies-and-musics-title-validation;find-aladin-from-shop-movies-by-studio--and-validate-the-item-title",
+        "after": [
+          {
+            "result": {
+              "duration": 311386000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\n\tat command_providers.ElementActions.click(ElementActions.java:34)\n\tat page_object.NavigationBar.OptionLink(NavigationBar.java:43)\n\tat stepDefinitions.MoviesStep.MoviesByStudio(MoviesStep.java:83)\n\tat ✽.User click on option and mousehover to movies and book and select Shop Movies by Studio(file:///Users/rahmanfamily/Desktop/overstock/src/test/resources/Features/movies.feature:25)\n",
+              "duration": 6699483000,
+              "status": "failed"
+            },
+            "line": 25,
+            "name": "User click on option and mousehover to movies and book and select Shop Movies by Studio",
+            "match": {
+              "location": "stepDefinitions.MoviesStep.MoviesByStudio()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 38000,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "User click on Aladin",
+            "match": {
+              "location": "stepDefinitions.MoviesStep.aladinDvDfromMoviesByStudio()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40000,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "User should be able to see the title \"Aladdin (DVD)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Aladdin (DVD)",
+                  "offset": 38
+                }
+              ],
+              "location": "stepDefinitions.MoviesStep.FrozenVal(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Movie4"
+          }
+        ]
+      }
+    ],
+    "name": "Test movies and musics title Validation",
+    "description": "",
+    "id": "test-movies-and-musics-title-validation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/movies.feature",
+    "tags": []
+  }
+]

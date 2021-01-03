@@ -1,0 +1,8 @@
+2021-01-03 02:40:45.045 [main][44367] INFO  stepDefinitions.Hooks - Launch Chrome Browser
+2021-01-03 02:40:46.726 [main][46048] INFO  stepDefinitions.MoviesStep - URL is:https://www.walmart.com/
+2021-01-03 02:41:00.664 [main][59986] ERROR command_providers.ElementActions - Element Exception for the locator: By.xpath: //*[@id='header-Header-sparkButton']/span[@class='g_b'] and exception is: org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//*[@id='header-Header-sparkButton']/span[@class='g_b']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Raihans-iMac.local', ip: '10.0.0.4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9'
+Driver info: driver.version: RemoteWebDriver
+2021-01-03 02:41:01.000 [main][60322] INFO  stepDefinitions.Hooks - Close Chrome Browser
