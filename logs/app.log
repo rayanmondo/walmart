@@ -1,0 +1,63 @@
+2020-12-30 15:14:20.298 [main][18017] INFO  stepDefinitions.Hooks - Launch Chrome Browser
+2020-12-30 15:14:20.429 [main][18148] INFO  stepDefinitions.TextBooks - URL is:https://www.walmart.com/
+2020-12-30 15:14:51.931 [main][49650] INFO  command_providers.ElementAssertions - validating that the expected locator By.xpath: //*[@id='product-overview']//h1[contains(text(),'Extreme Ownership : How U.S. Navy Seals Lead and Win')]does exist
+2020-12-30 15:14:53.918 [main][51637] INFO  stepDefinitions.Hooks - Close Chrome Browser
+2020-12-30 15:14:57.686 [main][55405] INFO  stepDefinitions.Hooks - Launch Chrome Browser
+2020-12-30 15:14:57.761 [main][55480] INFO  stepDefinitions.E_Books - URL is:https://www.walmart.com/
+2020-12-30 15:15:11.639 [main][69358] INFO  command_providers.ElementAssertions - validating that the expected locator By.xpath: /html/body//a[text()='Patrick Ness']does exist
+2020-12-30 15:15:11.842 [main][69561] INFO  stepDefinitions.Hooks - Close Chrome Browser
+2020-12-30 15:15:14.724 [main][72443] INFO  stepDefinitions.Hooks - Launch Chrome Browser
+2020-12-30 15:15:14.750 [main][72469] INFO  stepDefinitions.The_Mandolorian - URL is:https://www.walmart.com/
+2020-12-30 15:15:27.529 [main][85248] INFO  command_providers.ElementAssertions - validating that the expected locator By.xpath: //*[@id='product-overview']//h1[text()='Baby Yoda Twin/Full Comforter and Sham Set']does exist
+2020-12-30 15:15:27.729 [main][85448] INFO  stepDefinitions.Hooks - Close Chrome Browser
+2020-12-30 15:15:30.443 [main][88162] INFO  stepDefinitions.Hooks - Launch Chrome Browser
+2020-12-30 15:15:30.506 [main][88225] INFO  stepDefinitions.Over_The_Moon - URL is:https://www.walmart.com/
+2020-12-30 15:15:44.947 [main][102666] INFO  stepDefinitions.Hooks - Close Chrome Browser
+2020-12-30 15:15:48.109 [main][105828] INFO  stepDefinitions.Hooks - Launch Chrome Browser
+2020-12-30 15:15:48.163 [main][105882] INFO  stepDefinitions.DisneyJunior - URL is:https://www.walmart.com/
+2020-12-30 15:16:04.975 [main][122694] ERROR command_providers.ElementActions - Element Exception for the locator: By.xpath: //*[@id='header-Header-sparkButton']/span[@class='g_b'] and exception is: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='header-Header-sparkButton']/span[@class='g_b']"}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Raihans-iMac.local', ip: '10.0.0.4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: /var/folders/49/x62tygkx03b...}, goog:chromeOptions: {debuggerAddress: localhost:54953}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 859348872fd3c1af4e77f4cb3a296ac6
+*** Element info: {Using=xpath, value=//*[@id='header-Header-sparkButton']/span[@class='g_b']}
+2020-12-30 15:16:05.126 [main][122845] INFO  stepDefinitions.Hooks - Close Chrome Browser
+2020-12-30 15:16:06.127 [main][123846] INFO  stepDefinitions.Hooks - Launch Chrome Browser
+2020-12-30 15:16:06.128 [main][123847] INFO  stepDefinitions.Frozen2 - URL is:https://www.walmart.com/
+2020-12-30 15:16:22.799 [main][140518] ERROR command_providers.ElementActions - Element Exception for the locator: By.xpath: //*[@id='header-Header-sparkButton']/span[@class='g_b'] and exception is: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='header-Header-sparkButton']/span[@class='g_b']"}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Raihans-iMac.local', ip: '10.0.0.4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: /var/folders/49/x62tygkx03b...}, goog:chromeOptions: {debuggerAddress: localhost:55054}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a62a0f497a9b4e0d17c54eb8f9312ae9
+*** Element info: {Using=xpath, value=//*[@id='header-Header-sparkButton']/span[@class='g_b']}
+2020-12-30 15:16:22.942 [main][140661] INFO  stepDefinitions.Hooks - Close Chrome Browser
+2020-12-30 15:16:24.009 [main][141728] INFO  stepDefinitions.Hooks - Launch Chrome Browser
+2020-12-30 15:16:24.010 [main][141729] INFO  stepDefinitions.TvShow - URL is:https://www.walmart.com/
+2020-12-30 15:16:41.881 [main][159600] ERROR command_providers.ElementActions - Element Exception for the locator: By.xpath: //*[@id='header-Header-sparkButton']/span[@class='g_b'] and exception is: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='header-Header-sparkButton']/span[@class='g_b']"}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Raihans-iMac.local', ip: '10.0.0.4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: /var/folders/49/x62tygkx03b...}, goog:chromeOptions: {debuggerAddress: localhost:55151}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f0b781197b49afa186cd771118913423
+*** Element info: {Using=xpath, value=//*[@id='header-Header-sparkButton']/span[@class='g_b']}
+2020-12-30 15:16:42.025 [main][159744] INFO  stepDefinitions.Hooks - Close Chrome Browser
+2020-12-30 15:16:46.361 [main][164080] INFO  stepDefinitions.Hooks - Launch Chrome Browser
+2020-12-30 15:16:46.362 [main][164081] INFO  stepDefinitions.HarryPotter - URL is:https://www.walmart.com/
+2020-12-30 15:17:03.588 [main][181307] ERROR command_providers.ElementActions - Element Exception for the locator: By.id: header-Header-sparkButton and exception is: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#header\-Header\-sparkButton"}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Raihans-iMac.local', ip: '10.0.0.4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: /var/folders/49/x62tygkx03b...}, goog:chromeOptions: {debuggerAddress: localhost:55252}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 8db3369e42aad0feccaea0d971df9b4b
+*** Element info: {Using=id, value=header-Header-sparkButton}
+2020-12-30 15:17:03.731 [main][181450] INFO  stepDefinitions.Hooks - Close Chrome Browser
