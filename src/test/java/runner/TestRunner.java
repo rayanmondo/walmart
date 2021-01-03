@@ -8,7 +8,6 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/Features",
         glue = {"stepDefinitions"},
-        tags = "@Movie4",
        plugin = {"pretty", "summary", "json:target/Cucumber.json"}
 
 )
