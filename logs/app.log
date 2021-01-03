@@ -1,8 +1,0 @@
-2020-12-25 15:29:09.212 [main][23916] INFO  stepDefinitions.Hooks - Launch Chrome Browser
-2020-12-25 15:29:09.454 [main][24158] INFO  stepDefinitions.HarryPotter - URL is:https://www.walmart.com/
-2020-12-25 15:29:25.305 [main][40009] ERROR command_providers.ElementActions - Element Exception for the locator: By.id: header-Header-sparkButton and exception is: org.openqa.selenium.NoSuchElementException: Cannot locate an element using id=header-Header-sparkButton
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Raihans-iMac.local', ip: '10.0.0.4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.9'
-Driver info: driver.version: RemoteWebDriver
-2020-12-25 15:29:25.950 [main][40654] INFO  stepDefinitions.Hooks - Close Chrome Browser
